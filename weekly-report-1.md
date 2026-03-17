@@ -15,7 +15,7 @@ This week I focused on getting my environment ready and understanding the basic 
 ## What I understand so far
 My main focus this week was the CKB mental model.
 
-What makes sense to me now is that a Cell is immutable once created. If a live Cell holds 500 CKB and I want to send part of it out, that original Cell is consumed or lets say destroyed  in a transaction and new output Cells are created from it, usually one for the receiver and one for change, minus transaction fees for the miners.
+What makes sense to me now is that a Cell is immutable once created. If a live Cell holds 500 CKB and I want to send part of it out, that original Cell is consumed or in a transaction and new output Cells are created from it, usually one for the receiver and one for change, minus transaction fees for the miners.
 
 I also got a clearer understanding of scripts:
 - lock script controls who can spend a Cell
